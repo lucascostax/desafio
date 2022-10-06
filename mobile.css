@@ -1,0 +1,27 @@
+main ,.pai
+,.pai2
+ .ojogo{flex-wrap: wrap;}
+ 
+input{width: 270px;
+    height: 42px;}
+
+select{width: 269px;
+    height: 42px;}
+
+button{width: 270px;
+    height: 42px;}
+
+@media(max-width:600px) {
+
+    .pai2,
+     main
+    .pai {width: 428px;
+         
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    
+
+}

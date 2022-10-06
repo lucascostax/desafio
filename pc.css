@@ -1,0 +1,160 @@
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap%27');
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&family=Squada+One&display=swap');
+
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #F2890D;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pp {
+    width: 177px;
+    height: 74px;
+    font-family: 'Squada One';
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 74px;
+}
+
+.ojogo {
+    width: 258px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    top: -47px;
+    color: black;
+    background: #1180E7;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 74px;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    background-color: #F5F5F5;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    position: relative;
+    border-radius: 5px;
+    justify-content: space-around;
+    
+}
+
+.menu {
+    margin-top: 50pt;
+}
+
+input {
+    width: 350px;
+    height: 42px;
+}
+
+select {
+    width: 350px;
+    height: 42px;
+}
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+}
+
+.botao1 {
+    background: #1180E6;
+    margin-top: 30px;
+}
+
+.botao2 {
+    background: #F2890D;
+    border: 3px solid #f2890d;
+   
+}
+
+.pai2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    text-align: center;
+ 
+}
+
+.pai2 p{font-family: 'Press Start 2P';
+}
+
+button {
+    
+    height: 42px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    font-family: 'Press Start 2P';
+}
+
+
+.fulano {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    width: 350px;
+    height: 145px;
+
+}
+
+#nome{width: 350px;
+    height: 145px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center}
+
+ .a{font-family: 'Press Start 2P';}
+
+#tentativas{ width: 350px;
+    height: 103px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;}
+
+#botao3{ 
+    background-color: #f2890d;
+    height: 42px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    font-family: 'Press Start 2P';
+    width: 269px;  
+}
+#tentativas2{ width: 350px;
+    height: 103px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;}
